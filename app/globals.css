@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary bg-primary text-white leading-loose;
+  }
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  }
+  .about-me-section, .portfolio-section, .contact-section {
+    @apply py-12;
+  }
+
+  .projects-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+  }
+
+  .project-card {
+    @apply bg-gray-800 p-6 rounded-lg shadow-md;
+  }
+
+  .contact-form input, .contact-form textarea {
+    @apply w-full p-2 border border-gray-300 rounded;
+  }
+
+  .contact-form button {
+    @apply bg-blue-500 text-white py-2 px-4 rounded;
+  }
+}
