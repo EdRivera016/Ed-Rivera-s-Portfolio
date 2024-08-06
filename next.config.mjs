@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  reactStrictMode: true,
-  swcMinify: true,
-  distDir: 'dist', // This will change the output directory to 'dist'
+  reactStrictMode: true, // Enables React Strict Mode
+  swcMinify: true, // Enables the SWC compiler for minification
+  distDir: 'dist', // Change the output directory to 'dist'
 };
 
 export default nextConfig;
