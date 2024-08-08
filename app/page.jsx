@@ -15,7 +15,7 @@ const Home = () => {
             <h1 className="h1 mb-6">
               Hello I`m <br /> <span className="text-accent">Edwin Rivera</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
+            <p className="max-w-[500px] mb-9 text-[18px] text-white/80">
               I am passionate about creating seamless digital experiences,
               leveraging my proficiency in multiple programming languages and
               technologies.
